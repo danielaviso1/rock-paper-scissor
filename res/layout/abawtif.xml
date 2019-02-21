@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+    
+    <TextView
+        android:id="@+id/txtSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rock Paper Scissors is a Game using hand gestures. A player who imitates a rock figure by his hand will defeat a player who imitates a scissor figure, but if rock is faced to paper the player who uses rock will lose, while the scissor can defeat paper."
+        android:textSize="20dp"
+        />
+    
+    <TextView
+       android:id="@+id/txtSum2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="This Game is brought to you by Daniel Game Development Company Sponsored by Joseph Fidelino."
+       android:textSize="15dp"
+       android:layout_marginTop="40dp"
+       />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:onClick="Ok"
+        android:id="@+id/btnOk"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>
